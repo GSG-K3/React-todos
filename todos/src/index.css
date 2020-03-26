@@ -1,0 +1,87 @@
+body {
+  /* margin: 0; */
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: rosybrown;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.App {
+  background-color: gray;
+  min-height: 500px;
+  width: 400px;
+  margin: 20px auto;
+  border-radius: 20px;
+}
+.listForm input {
+  widows: 200px;
+  height: 50px;
+  padding:0px 20px;
+  margin: 40px 20px;
+  font-size: 15px;
+  border-radius: 12px;
+  }
+.listForm input::placeholder {
+  color: black;
+}
+.listForm input:focus,
+.listForm button:focus {
+  outline: none;
+}
+
+.listForm button {
+  height: 50px;
+  width: 80px;
+  border: 0;
+  border-radius: 10px;
+  background-color: rgb(24, 224, 191);
+  cursor: pointer;
+  font-weight: bolder;
+}
+
+.logo{
+  margin: 30px 40px 7px 525px;
+  width: 400px;
+  height:70px
+}
+
+.lists {
+  widows:200px;
+  color: black;
+  width: 350px;
+  background-color: rgb(228, 174, 174);
+  height: 50px;
+  margin: 0px 25px;
+  padding: 0px;
+  border-radius: 15px;
+  
+}
+.lists p {
+  
+  padding: 10px;
+  position: relative;
+  left:10px;
+}
+.lists p span {
+  position: absolute;
+  right: 20px;
+  cursor: pointer;
+}
+.faicons {
+  margin: 0 5px;
+  font-size: 15px;
+}
+
+@media only screen and (max-width:480px){
+  .logo{
+    margin: 20px 20px;
+  }
+} 
+
+
